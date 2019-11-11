@@ -97,3 +97,8 @@ when
 as
 good
 find
+has
+been
+is
+the
+being

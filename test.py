@@ -1,5 +1,6 @@
 # from nltk.corpus import wordnet
-names=["dig","ripped","feed","food"]
+names=["if","planned","feed","food"]
+
 syn_names = []
 # # for syns in names:
 # #     syn_names.append(wordnet.synsets(syns))
@@ -20,6 +21,7 @@ def Remove(duplicate):
 
 from nltk.corpus import wordnet
 for name in names:
+    syn_names = []
     for syn in wordnet.synsets(name):
         for name in syn.lemma_names():
             syn_names.append(name)
